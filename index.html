@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#081a1d">
   <meta name="description" content="From lab to industry: realities and challenges — a talk by João Pedro Araújo">
-  <title>From lab to industry: realities and challenges</title>
+  <title>From Lab to Industry: realities and challenges</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,12 +17,12 @@
       <img class="cover-photo" src="assets/factory-robot.jpg" alt="Industrial robotic arms on a production line">
       <div class="cover-shade"></div>
       <div class="cover-copy">
-        <p class="kicker light">INDUSTRIATECH+AI 2026 · ROBOTICS</p>
-        <h1>From lab<br>to industry</h1>
-        <p class="cover-subtitle">Realities and challenges when the frontier moves faster than product cycles</p>
+        <p class="kicker light">INDUSTRIATECH+AI 2026</p>
+        <h1>From the Lab<br>to Industry</h1>
+        <p class="cover-subtitle">Realities and challenges</p>
         <div class="byline">
           <strong>João Pedro Araújo</strong>
-          <span>Stanford University · The Movement Lab</span>
+          <span>Stanford University · Faculdade de Ciências da Universidade de Lisboa</span>
         </div>
       </div>
       <span class="corner-index light">01 / 06</span>
@@ -30,10 +30,10 @@
 
     <section class="slide success" data-title="Same robot, different success" data-notes="Research asks whether a capability can exist. Industry asks whether the system can be installed, maintained and relied on. Mention calibration, integration, communications, tolerances, reliability, debugging and maintainability. A seasoned robotics engineer may solve in minutes something that consumes a research student for days because the organizations accumulate different expertise. Closing: Just because a research lab is working on a problem does not mean a research lab is the organization best equipped to solve your version of it.">
       <header class="slide-header">
-        <p class="kicker">THE OBJECTIVE FUNCTION CHANGES</p>
-        <h2>Same robot. Different definition of success.</h2>
+        <p class="kicker">TWO VERY DIFFERENT CULTURES</p>
+        <h2>Research labs and industry companies have different goals.</h2>
       </header>
-      <div class="success-stage">
+      <div class="success-stage" style="margin-top: 30px;">
         <img src="assets/factory-robot.jpg" alt="The same industrial robot shown behind both perspectives">
         <div class="success-wash"></div>
         <div class="success-column research fragment" data-step="1">
@@ -42,6 +42,7 @@
           <p>Can this be done?</p>
           <p>Does this reveal something new?</p>
           <p>Can I demonstrate the capability?</p>
+          <div class="work-share fragment" data-step="3"><strong>1–10%</strong><span>of the work</span></div>
         </div>
         <div class="success-divider"></div>
         <div class="success-column industry fragment" data-step="2">
@@ -51,123 +52,115 @@
           <p>Can I install and maintain it?</p>
           <p>Can I make money with it?</p>
           <p>Will it still work at 3 a.m.?</p>
+          <div class="work-share fragment" data-step="3"><strong>90–99%</strong><span>of the work</span></div>
         </div>
       </div>
-      <p class="bottom-statement fragment" data-step="3">Different incentives create different expertise.</p>
+      <p class="bottom-statement fragment" data-step="4">Rodney Brooks had the first Roomba prototype in 1990. It hit the market in 2002.</p>
       <span class="corner-index">02 / 06</span>
-    </section>
-
-    <section class="slide research-loop" data-title="What research feels like" data-notes="Let the build tell the joke. Begin with the work. A model arrives, you test it and it fails, so you continue. Then the next model works and six months of your solution disappears. Transition: This would merely be annoying if the models were improving incrementally. But several things have changed qualitatively.">
-      <header class="slide-header">
-        <p class="kicker">LIFE AT THE FRONTIER</p>
-        <h2>Meanwhile, this is what research feels like</h2>
-      </header>
-      <div class="orbit" aria-label="Circular research workflow">
-        <div class="orbit-ring"></div>
-        <div class="orbit-arrow arrow-a"></div>
-        <div class="orbit-arrow arrow-b"></div>
-        <div class="orbit-arrow arrow-c"></div>
-        <div class="loop-node work fragment" data-step="1"><small>START HERE</small>Work on<br>a problem</div>
-        <div class="loop-node model-one fragment" data-step="2"><small>THE FRONTIER MOVES</small>New model<br>comes out</div>
-        <div class="loop-node test-one fragment" data-step="3"><small>TRY IT</small>Test it</div>
-        <div class="loop-node failure fragment" data-step="4"><small>OUTCOME A</small>Doesn't work<br><b>Keep working</b></div>
-        <div class="loop-node model-two fragment" data-step="5"><small>SOON AFTER</small>Next model<br>comes out</div>
-        <div class="loop-node success-node fragment" data-step="6"><small>OUTCOME B</small>It works!</div>
-        <div class="delete-work fragment" data-step="7">
-          <span>Delete six months of work</span>
-          <strong>Next problem.</strong>
-        </div>
-      </div>
-      <span class="corner-index">03 / 06</span>
     </section>
 
     <section class="slide toolbox" data-title="The toolbox got bigger" data-notes="Three capability jumps matter: simulation, hardware and foundation models. Older methods did not become obsolete. For a structured production problem, classical planning and control may still give the best predictability, validation, debugging and operational risk. Closing question: Before asking how to use the latest AI, ask: can we already give the customer what they want?">
       <header class="slide-header">
-        <p class="kicker">ROUGHLY FIVE YEARS OF CAPABILITY JUMPS</p>
-        <h2>The toolbox got much bigger</h2>
+        <p class="kicker">DEVELOPMENTS IN THE PAST 5 YEARS (2020-2025)</p>
+        <h2>Three revolutions</h2>
       </header>
       <div class="three-forces">
         <article class="force fragment" data-step="1">
           <span class="force-id">01</span>
           <h3>Simulation</h3>
           <p>Faster, more accurate and massively parallel</p>
-          <div class="force-mark simulation-mark"><i></i><i></i><i></i><i></i></div>
+          <figure class="force-visual"><img src="assets/isaaclab.jpg" alt="Many simulated robots training in NVIDIA Isaac Lab"><figcaption>ISAAC LAB</figcaption></figure>
         </article>
         <article class="force fragment" data-step="2">
           <span class="force-id">02</span>
           <h3>Hardware</h3>
-          <p>More capable robots and sensors at lower cost</p>
-          <div class="force-mark hardware-mark"><i></i><i></i><i></i></div>
+          <p>More accessible robots</p>
+          <figure class="force-visual"><img src="assets/humanoid-robots.webp" alt="A lineup of modern humanoid robots"><figcaption>MORE PLATFORMS</figcaption></figure>
         </article>
         <article class="force fragment" data-step="3">
           <span class="force-id">03</span>
           <h3>Foundation models</h3>
-          <p>Reusable perception, language, reasoning and action</p>
-          <div class="force-mark model-mark"><i></i><i></i><i></i><i></i><i></i></div>
+          <p>Commoditized intelligence</p>
+          <figure class="force-visual logo-field">
+            <img src="assets/logo-chatgpt.png" alt="ChatGPT logo">
+            <img src="assets/logo-claude.svg" alt="Claude logo">
+            <img src="assets/logo-nvidia.svg" alt="NVIDIA logo">
+            <figcaption>GENERAL AND PHYSICAL AI MODELS</figcaption>
+          </figure>
         </article>
       </div>
       <div class="tool-shelf fragment" data-step="4">
-        <span>Classical control</span><span>Planning / optimization</span><span>Conventional perception</span><span>Learned components</span><span>Task-specific policies</span><span>Robot foundation models</span>
+        <span>Classical control</span><span>Planning / optimization</span><span>Conventional perception</span><span>Learned components</span><span>Task-specific policies</span>
       </div>
       <div class="toolbox-close fragment" data-step="5">
         <p>New technology expands the toolbox.</p>
         <strong>Latest ≠ appropriate.</strong>
       </div>
+      <span class="corner-index">03 / 06</span>
+    </section>
+
+    <section class="slide research-loop" data-title="What research feels like" data-notes="Let the build tell the joke. Begin with the work. A model arrives, then you test it. If it fails, the cycle returns to the next model. If it works, your custom solution may no longer matter and you move to the next problem. Transition: This would merely be annoying if the models were improving incrementally. But several things have changed qualitatively.">
+      <header class="slide-header">
+        <p class="kicker">LIFE AT THE FRONTIER</p>
+        <h2>Currently, this is what research feels like</h2>
+      </header>
+      <div class="research-flow" aria-label="Research workflow with success and failure branches">
+        <svg class="flow-arrows" viewBox="0 0 1700 650" role="img" aria-label="Arrows connect the workflow steps">
+          <defs>
+            <marker id="arrow-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#27675e"/></marker>
+            <marker id="arrow-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ff6b45"/></marker>
+          </defs>
+          <g class="fragment" data-step="2"><path class="flow-path" d="M 425 205 C 475 205, 505 205, 550 205" marker-end="url(#arrow-teal)"/></g>
+          <g class="fragment" data-step="3"><path class="flow-path" d="M 965 205 C 1015 205, 1050 205, 1095 205" marker-end="url(#arrow-teal)"/></g>
+          <g class="branch fragment" data-step="4">
+            <path class="flow-path success-path" d="M 1350 320 C 1350 385, 1300 425, 1230 458" marker-end="url(#arrow-orange)"/>
+            <text x="1375" y="406">It works</text>
+            <path class="flow-path failure-path" d="M 1220 310 C 1080 430, 845 445, 790 325" marker-end="url(#arrow-teal)"/>
+            <text x="915" y="432">Doesn't work</text>
+          </g>
+        </svg>
+        <div class="flow-block problem fragment" data-step="1"><small>START HERE</small><strong>Work on a problem</strong></div>
+        <div class="flow-block new-model fragment" data-step="2"><small>THE FRONTIER MOVES</small><strong>New model comes out</strong></div>
+        <div class="flow-block try-model fragment" data-step="3"><small>DOES IT SOLVE MY PROBLEM?</small><strong>Test it</strong></div>
+        <div class="flow-block next-problem fragment" data-step="4"><small>THE CUSTOM SOLUTION DISAPPEARS</small><strong>Next problem</strong></div>
+      </div>
       <span class="corner-index">04 / 06</span>
     </section>
 
-    <section class="slide frontier" data-title="What I am paying attention to" data-notes="Do not present these as predictions. Robot foundation models may reduce how much data and engineering each deployment needs. World model is an overloaded term, but the useful question is whether a model can predict, reason, plan or train from how the world evolves. HomeBody is the concrete GPT Astra example: it uses Astra as a Real2Sim agent to build a digital twin in Isaac Sim from a humanoid's exploration data, then uses spatial memory and composable skills for long-horizon tasks. I do not know whether this approach will become standard. What matters is that a workflow priced one way a month ago may suddenly have a different cost structure.">
-      <div class="frontier-sidebar">
-        <p class="kicker light">SIGNALS, NOT PREDICTIONS</p>
-        <h2>What I am<br>paying attention to</h2>
-        <div class="watch-list">
-          <div class="watch-item fragment" data-step="1">
-            <span>01</span><h3>Robot foundation models</h3>
-            <p>How much task-specific data and engineering will the next deployment require?</p>
-          </div>
-          <div class="watch-item fragment" data-step="2">
-            <span>02</span><h3>World models</h3>
-            <p>A useful but overloaded term for models that predict, reason, plan or train.</p>
-          </div>
-        </div>
-      </div>
-      <div class="astra fragment" data-step="3">
-        <video src="assets/homebody-reconstruction.mp4" poster="assets/homebody-comparison.webp" autoplay muted loop playsinline aria-label="HomeBody real-to-sim reconstruction"></video>
-        <div class="astra-shade"></div>
-        <div class="astra-copy">
-          <p class="kicker light">GPT-6 ASTRA · REAL2SIM</p>
-          <h3>From robot observations<br>to a usable digital twin</h3>
-          <p>HomeBody builds a simulated representation from the humanoid's own exploration, then uses it for spatial memory and task reasoning.</p>
-          <a href="https://tml.stanford.edu/homebody/" target="_blank" rel="noopener">Explore the HomeBody example ↗</a>
-        </div>
-        <div class="media-credit">SOURCE · STANFORD TML · HOMEBODY (2026)</div>
+    <section class="slide frontier" data-title="What I am paying attention to" data-notes="Do not present these as predictions of which architecture will win. Example one is NVIDIA Cosmos, an open physical AI foundation model that can reason over scenes, generate possible futures and support policy learning. Example two is World Labs Atlas, an omni world model that generates, reconstructs and simulates 3D-consistent worlds, including Real-to-Sim workflows. Example three is HomeBody: GPT-6 Astra builds and uses a digital twin from a humanoid's exploration data, then orchestrates reusable motor skills for long-horizon tasks. What matters is whether a new capability changes the cost, feasibility or performance of a real problem.">
+      <header class="frontier-header">
+        <p class="kicker light">WHAT ABOUT A COMPANY?</p>
+        <h2>What I think is worth paying attention to</h2>
+      </header>
+      <div class="frontier-examples">
+        <a class="frontier-example cosmos fragment" data-step="1" href="https://www.nvidia.com/en-eu/ai/cosmos/" target="_blank" rel="noopener">
+          <img src="assets/nvidia_cosmos.jpg" alt="NVIDIA Cosmos physical AI foundation model">
+          <div class="example-shade"></div>
+          <div class="example-copy"><span>01 · ROBOT FOUNDATION MODELS</span><h3>NVIDIA Cosmos</h3><p>Reason over scenes, simulate outcomes and support robot policy learning.</p><b>Explore Cosmos ↗</b></div>
+        </a>
+        <a class="frontier-example homebody fragment" data-step="2" href="https://www.worldlabs.ai/blog/atlas" target="_blank" rel="noopener">
+          <img src="assets/ken_goldberg_gap.jpg" alt="Agentic approaches to robotics, such as GaP, are leading a paradigm shift." style="margin-top: 40%;height: auto;">
+          <div class="example-shade"></div>
+          <div class="example-copy"><span>02 · AGENTIC ROBOTICS</span><h3>Graph-As-Policy</h3><p>Generate, reconstruct and simulate 3D-consistent worlds.</p><b>Explore Atlas ↗</b></div>
+        </a>
+        <a class="frontier-example homebody fragment" data-step="3" href="https://tml.stanford.edu/homebody/" target="_blank" rel="noopener">
+          <video src="assets/homebody-reconstruction.mp4" poster="assets/homebody-comparison.webp" autoplay muted loop playsinline aria-label="HomeBody real-to-sim reconstruction"></video>
+          <div class="example-shade"></div>
+          <div class="example-copy"><span>03 · GENERALIST FOUNDATION MODELS</span><h3>GPT-6 Astra<br>+ HomeBody</h3><p>Build a digital twin, remember the scene and orchestrate reusable robot skills.</p><b>Explore HomeBody ↗</b></div>
+        </a>
       </div>
       <span class="corner-index light">05 / 06</span>
     </section>
 
-    <section class="slide evidence" data-title="Reduce your time-to-evidence" data-notes="Reveal the questions one at a time. The point is an operating model for managers, not a prediction. Final spoken message: Nobody knows what robotics will look like five years from now. So don't build an organization that depends on predicting it. Build one that can recognize when something important has changed, test it against its real problems, and act quickly when it matters.">
-      <p class="kicker">A PRACTICAL OPERATING MODEL</p>
-      <div class="questions">
-        <article class="question fragment" data-step="1">
-          <span>01</span>
-          <h3>What is stopping us from satisfying the customer today?</h3>
-          <p>Dexterity · Perception · Cycle time · Programming cost · Robustness · Changeover time</p>
-        </article>
-        <article class="question fragment" data-step="2">
-          <span>02</span>
-          <h3>Does the new technology attack that bottleneck?</h3>
-          <p>Ignore how impressive or fashionable it looks. Ask whether it changes the constraint.</p>
-        </article>
-        <article class="question fragment" data-step="3">
-          <span>03</span>
-          <h3>How quickly can we find out?</h3>
-          <p>Reproduce it. Benchmark it. Let a small team establish whether the improvement is qualitative.</p>
-        </article>
+    <section class="slide evidence" data-title="How should companies keep up?" data-notes="Start with the question. The answer is an operating model. First, keep customer needs ahead of technology fashion. Second, name the bottleneck that prevents the customer outcome today. Third, shorten the time required to reproduce, benchmark and judge a new capability. Final spoken message: Nobody knows what robotics will look like five years from now. Build an organization that can recognize both opportunity and risk, test changes against its real problems and act quickly when the evidence matters.">
+      <p class="kicker">THE MANAGEMENT CHALLENGE</p>
+      <h2 class="evidence-question">How should companies keep up?</h2>
+      <div class="company-actions">
+        <article class="company-action fragment" data-step="1"><span>01</span><h3>Focus on customer needs</h3><p>Start with the outcome customers value, not the technology receiving attention.</p></article>
+        <article class="company-action fragment" data-step="2"><span>02</span><h3>Identify bottlenecks</h3><p>Name the constraint that prevents that outcome today.</p></article>
+        <article class="company-action fragment" data-step="3"><span>03</span><h3>Reduce time-to-evidence</h3><p>Reproduce, benchmark and decide while the information still matters.</p></article>
       </div>
-      <div class="final-message fragment" data-step="4">
-        <small>THE MANAGEMENT CHALLENGE</small>
-        <h2>Don't predict the future.<br><em>Reduce your time-to-evidence.</em></h2>
-      </div>
+      <div class="final-message fragment" data-step="4"><h2>Don't predict the future.<br><em>Be prepared for the best and the worst.</em></h2></div>
       <span class="corner-index">06 / 06</span>
     </section>
   </main>
